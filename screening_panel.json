@@ -1,0 +1,31 @@
+{
+  "lot": "SCR-2025-01",
+  "manufacturer": "Ortho Clinical Diagnostics",
+  "expiry": "2025-12-31",
+  "cells": [
+    {
+      "cell": "Screen Cell 1",
+      "antigens": {
+        "D": "+", "C": "+", "E": "-", "c": "+", "e": "+",
+        "K": "-", "Fya": "+", "Fyb": "-", "Jka": "+", "Jkb": "+",
+        "M": "-", "N": "+", "S": "-", "s": "+"
+      }
+    },
+    {
+      "cell": "Screen Cell 2",
+      "antigens": {
+        "D": "-", "C": "-", "E": "+", "c": "+", "e": "+",
+        "K": "+", "Fya": "-", "Fyb": "+", "Jka": "-", "Jkb": "+",
+        "M": "+", "N": "-", "S": "+", "s": "+"
+      }
+    },
+    {
+      "cell": "Screen Cell 3",
+      "antigens": {
+        "D": "+", "C": "-", "E": "-", "c": "-", "e": "+",
+        "K": "-", "Fya": "+", "Fyb": "+", "Jka": "+", "Jkb": "-",
+        "M": "+", "N": "+", "S": "-", "s": "-"
+      }
+    }
+  ]
+}
