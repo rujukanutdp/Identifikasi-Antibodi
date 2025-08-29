@@ -348,7 +348,7 @@
   async function handleLoadAll() {
     // screening
     try {
-      const urlScr = $("url_screening").value.trim();
+      const urlScr = $("https://rujukanutdp.github.io/Identifikasi-Antibodi/screening_panel.json").value.trim();
       if (urlScr) {
         const j = await loadJsonFromUrl(urlScr);
         screeningPanel = j;
@@ -364,7 +364,7 @@
 
     // id panel
     try {
-      const urlId = $("url_idpanel").value.trim();
+      const urlId = $("https://rujukanutdp.github.io/Identifikasi-Antibodi/id_panel.json").value.trim();
       if (urlId) {
         const j = await loadJsonFromUrl(urlId);
         idPanel = j;
@@ -380,7 +380,7 @@
 
     // population file (can be single population object or multi)
     try {
-      const urlPop = $("url_pop").value.trim();
+      const urlPop = $("https://rujukanutdp.github.io/Identifikasi-Antibodi/antigen_population_indonesia.json").value.trim();
       if (urlPop) {
         const j = await loadJsonFromUrl(urlPop);
         // if the JSON is one population (has population field) -> wrap into keyed object
@@ -631,3 +631,4 @@
   </script>
 </body>
 </html>
+
